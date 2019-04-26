@@ -21,3 +21,11 @@ export const changeMessage = (message) => {
         message
     }
 };
+
+export const updateProductOnCart = (product, quantity) => {
+    return {
+        type : types.UPDATE_QUANTITY_PRODUCT_ON_CART,
+        product,
+        quantity
+    }
+};
